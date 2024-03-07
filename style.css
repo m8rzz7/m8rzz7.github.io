@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+/*MARZ SITE CSS*/
+*{}
+
+body {
+	/*teacher's padding*/
+	margin: 0;
+    padding: 0;
+	/* my padding:
+	padding-top: 0vw;
+	padding-bottom: 10vw;
+	padding-right: 10vw;	
+	padding-left: 10vw;
+	*/
+	background: #59747e; /* or use background-color*/
+	/*old color = #F9F3D7 */
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	line-height: 150%;
+}
+h1 {
+	text-align: center;
+	color: #51613b;	
+	font-size: 55px;
+	line-height: 100%
+}
+h1.title{
+	display: block;
+	margin-bottom: 0;
+	margin-top: 0;
+	min-height: 200px;
+	padding: 10px 0px;
+	background-image: url("images/animal-dance.JPG");
+	padding-top: 50px;
+	font-size: 125px;
+	text-align: center;
+	font-variant-caps: all-small-caps;
+	font-style: oblique;
+	color: #221b2b;
+	line-height: 100%
+}
+.site-logo{
+	text-decoration: none;
+}
+.hed{
+	line-height: 150%;
+	/*padding-bottom: 10px;*/
+	text-decoration: none;
+	color: #51613b;	
+	font-size: 75px;
+	/*text-align: right;*/
+	font-style: oblique;
+}
+.hed a{
+	line-height: 150%;
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: #51613b;	
+	font-size: 75px;
+	font-style: oblique;
+}
+.hed a:hover{
+	 color: hotpink;
+}
+.hed a:active{
+	 color:aquamarine;
+}
+h2 {
+	color: #283a1b;
+}
+h3, h4 {
+	color: #435430;
+}
+p{
+	/*text-align: justify;*/
+	color: #273A3A;
+}
+ul, ol {
+	color: #273A3A;
+}
+p img { 
+	padding: 0; 
+	max-width: 100%; 
+}
+p.caption{
+	font-size: 16px;
+	font-weight: 900;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	padding: 0;
+	line-height: 50%;
+	text-align: center;
+}
+em.cap {
+	text-weight: bold;
+	font-style: normal;
+}
+/*table{
+	display: block;
+	width: 100%;
+	border:1px solid black;
+	
+}*/
+table, th, td {
+	border:1px solid black;
+	border-collapse: collapse;
+	padding-left: 15px;
+	padding-right:15px;
+	max-width: inherit;
+	/*column-width: inherit;*/
+	column-width: 100%;	
+	color: #273A3A;
+}
+th {
+	background-color: #83A083;
+	color: black;
+	text-align: left;
+}
+.wrapper .tab{
+	align-content:center; 
+	max-width:inherit;
+	min-width: inherit;
+}
+nav{
+	background-color: #E2E7CC;
+	text-align: center;
+	color: darkcyan;
+	padding-bottom: 3px;
+	align-content: center;
+}
+.site-nav{
+	border: 3px solid #A9BCC0;
+	background: #D9E1E3;
+}
+.page-nav{
+	border: 3px solid #B3C0A9;
+}
+.site-nav a, .page-nav a{
+	text-decoration: none;
+}
+a:link {
+  color:darkcyan;
+}
+a:visited {
+  color: #004D4D;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color:aquamarine;
+}
+img.alignright { 
+	padding: 4px; 
+	margin: 0 0 2px 7px; 
+	display: inline; 
+}
+img.alignleft { 
+	padding: 4px; 
+	margin: 0 7px 2px 0; 
+	display: inline; 
+}
+img.aligncenter { 
+	display:inline;
+	margin-left: auto; 		
+	margin-right: auto; 
+}
+.alignright { 
+	float: right; 
+	padding-left: 10px;
+}
+.alignleft { 
+	float: left; 
+	padding-right: 10px;
+}
+.aligncenter { 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+.wp-caption { 
+	margin: 5px; 
+	padding: 5px; 
+	border: solid 1px #F9F3D7; 
+	background: #F9F3D7; 
+	font-size:90%; 
+	color: black 
+}
+.gallery{ 
+	text-align: center; 
+	margin:50px auto;
+}	
+.gallery figure{ 
+	margin:0px 20px;
+	display:inline-block;
+	/*text-decoration:none;
+	color:black;*/
+	text-overflow: inherit;
+	color: #273A3A;
+}
+/* gallery grid CSS */
+.gallery-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-row-gap: 20px ;
+	justify-items: center;
+	align-items: start;
+	justify-content: space-between;
+}
+.gallery-item {
+	width: 250px; /*should match the width of your images + width of border (if any) */
+	text-align: center;
+}     
+/* css for styling the p/caption under the image */       
+.gallery-item p {
+	margin: .25em 0;
+	line-height: 135%;
+	text-align: center;
+}
+.in {
+	margin: 0px;
+	display:inline-block;
+	/* text-decoration:none; 
+	color:black;*/		
+	color: #273A3A;
+	word-wrap: normal;
+	text-align:center; 
+	
+}
+/*icon CSS*/
+.icon-hot{
+	color: magenta;
+}
+div{
+	word-wrap: break-word;
+}
+.wrapper{
+	background: #d7f9f5;
+	max-width: 900px;
+	width: 70%;   
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px;
+	/* adds 20 px top and bottom, and 40 px, left and right*/
+}
+figure{
+	display: inline-block;
+}
+figurecaption {
+	display: block;
+	overflow-wrap: break-word;	
+	color: #273A3A;
+}
+div.block{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: block;
+	/*border: 5px solid black;*/
+	max-block-size: 100%;
+	min-height: 200px;
+	
+}
+.inline {
+	display: inline;
+}
+.indent-left{
+	margin-left: 400px;
+}
+/*survey*/
+.container { 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #BDC664;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px
+        rgba(0, 0, 0, 0.1); 
+} 
+label { 
+	margin-top: 1rem; 
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	color: #273A3A;
+} 
+input { 
+	padding: 10px; 
+	box-sizing: border-box; 
+	margin: 1.2rem 0;
+	text-align: justify;
+	color: #273A3A;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+} 
+/* Styling specific input types */
+input[type="text"], input[type="number"] { 
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #273A3A;
+	box-sizing: border-box; 
+	padding: 10px; 
+	width: 100%; 
+} 
+input[type="textarea"] { 
+	/*width: 100%; 
+	height: 100px; 
+	word-wrap: break-word;*/
+	width: 100%;
+  	height: 150px;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+  	border: 2px solid #ccc;
+  	border-radius: 4px;
+  	background-color: #f8f8f8;
+  	resize: none;
+} 
+textarea{
+	width: 100%;
+  	height: 150px;
+  	padding: 12px 20px;
+	box-sizing: border-box; 
+	margin: 1.2rem 0;
+  	resize: none;
+	text-align: justify;
+	color: #273A3A;
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+button { 
+	width: 100%; 
+	padding: 10px; 
+	background-color: olive; 
+	color: white; 
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	border: none; 
+	border-radius: 5px; 
+	cursor: pointer; 
+} 
+button:hover { 
+	background-color: olivedrab; 
+} 
+.error { 
+	border: 3px solid red; 
+} 
+.errorText { 
+	padding: 1rem; 
+	border: 2px solid red; 
+	box-shadow: rgba(149, 157, 165, 0.2) 
+		0px 4px 12px; 
+	font-size: 1.2rem; 
+	color: #273A3A;
+} 
+.successText { 
+	padding: 1rem; 
+	border: 4px solid green; 
+	box-shadow: rgba(149, 157, 165, 0.2) 
+		0px 4px 12px; 
+	font-size: 1.2rem; 
+	color: #273A3A;
+} 
