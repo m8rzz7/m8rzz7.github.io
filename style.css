@@ -79,6 +79,7 @@ div{
 }
 header h1 {
 	font-size: 40px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 /* footer */
@@ -94,7 +95,7 @@ footer{
 
 /* headers */
 h1, h2, h3, h4, h5, h6{
-	font-family: "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 h1 {
 	text-align: center;	
